@@ -1,0 +1,79 @@
+.storiesContainer{
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    margin-top: 95px;
+    padding: 16px 0;
+    display: block;
+    overflow-y: hidden;
+    align-items: stretch;
+    position: relative;
+    height: 130px;
+    
+}
+
+.storyItems{
+    height: 94px;
+    outline: 0;
+    overflow-y: hidden;
+    overflow-x: auto;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    display: list-item;
+    list-style: none;
+    position: absolute;
+}
+
+.story1 {
+    width: 72px;
+    align-items:stretch;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0px 4px;
+    margin-left: 20px;
+    height: 122px;
+    top: 2px;
+    position: relative;
+    
+}
+
+.firstStoryImg{
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 68px;
+    width: 68px;
+    align-self: center;
+    display: flex;
+    padding: 1px 6px;
+    object-fit: cover;
+
+}
+
+.username{
+    letter-spacing: .01em;
+    max-width: 78px;
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    text-overflow: ellipsis;
+    top: 76px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+
+}

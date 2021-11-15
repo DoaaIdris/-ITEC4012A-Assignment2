@@ -1,0 +1,28 @@
+.mainColumn{
+    max-width: 935px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.mainPosts{
+    float: left;
+    margin-right: 28px;
+    max-width: 670px;
+    width: 100%;
+    align-items: stretch;
+    position: absolute;
+    display: block;
+    max-height: inherit;
+    width: 100%;
+    background-color: #efefef;
+    overflow: hidden;
+    padding-bottom: 123.241%;
+    flex-direction: column;
+    object-fit: cover;
+}
+

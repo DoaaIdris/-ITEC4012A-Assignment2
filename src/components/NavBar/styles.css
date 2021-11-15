@@ -1,0 +1,143 @@
+.navbar {
+    background-color: #fff;
+    border:  0 solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    height: 60px;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-shrink: 0;
+    vertical-align: baseline;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.navbar ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 975px;
+    padding: 0 20px;
+    margin: 0;
+    height: 60px;
+    z-index: 10;
+    width: 100%;
+    position: relative;
+    vertical-align: baseline;
+   
+}
+
+
+.logo{
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1 9999 0%;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.logo_image{
+    flex: 0 0 auto;
+    align-items: stretch;
+    cursor: pointer;
+}
+
+.navigation{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 0 0%;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 30px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+}
+
+.search-bar{
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    height: 28px;
+    min-width: 125px;
+    width: 215;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.home-icon{
+    align-items: stretch;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.explore-icon{
+    margin-left: 22px;
+    align-items: stretch;
+}
+
+svg{
+    height: 25px;
+    width: 25px;
+    align-items: stretch;
+    color: #262626; 
+    fill: #262626; 
+    stroke-width: -10;
+}
+
+svg :active{
+    color: #aaa9a9; 
+    fill: #aaa9a9; 
+}
+
+svg .highlighted{
+    color: #fafafa; 
+    fill: #fafafa; 
+}
+
+
+@media only screen and (min-width: 60px){
+    .navbar ul{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+html{
+    background-color: #ebebeb;
+}
