@@ -2,7 +2,7 @@
     background-color: #fff;
     border:  0 solid rgba(0,0,0,0);
     box-sizing: border-box;
-    height: 60px;
+    height: 65px;
     padding: 0;
     align-items: center;
     display: flex;
@@ -17,7 +17,7 @@
     border-bottom: 1px solid #dbdbdb;
 }
 
-.navbar ul {
+nav ul {
     list-style-type: none;
     align-items: center;
     display: flex;
@@ -26,7 +26,7 @@
     max-width: 975px;
     padding: 0 20px;
     margin: 0;
-    height: 60px;
+    height: 65px;
     z-index: 10;
     width: 100%;
     position: relative;
@@ -38,22 +38,29 @@
 .logo{
     max-width: 100%;
     max-height: 100%;
-    flex: 1 9999 0%;
+    flex: 1 0 127px;
     align-items: stretch;
+    align-content: stretch;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 0;
     margin: 0;
     position: relative;
-    margin: 0;
-    margin-top: 7px;
-    padding: 0;
-    justify-content: flex-start;
+    object-fit: contain;
+
 }
 
-.logo_image{
+a{
     flex: 0 0 auto;
+    margin-top: 7px;
     align-items: stretch;
     cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: row;
 }
 
 .navigation{
@@ -62,10 +69,10 @@
     display: flex;
     flex: 1 0 0%;
     justify-content: flex-end;
-    padding: 0;
     margin: 0;
     position: relative;
     height: 30px;
+    padding-left: 24px;
 }
 
 .icons{

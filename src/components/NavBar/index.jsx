@@ -30,8 +30,7 @@ export const Navbar = () => {
                                 10.5-5-5 10.5z" ></path>
                                 </svg>
                         </a>
-                    </div>
-                    
+                    </div>                
                 </li>
                 
             </ul>
