@@ -1,0 +1,37 @@
+.explore-post{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+    float: left;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    
+}
+
+.explore-post img{
+    object-fit: cover;
+    cursor: pointer;
+    position: absolute;
+    height: 80%;
+   
+    
+}
+
+@media only screen and (min-width: 736px){
+    .explore-post{
+        margin: 0 28px 28px 0;
+    }
+}
+
+@media only screen and (max-width: 736px){
+    .explore-post{
+        margin: 0 5px 5px 0;
+    }
+}
+
+
+
+
