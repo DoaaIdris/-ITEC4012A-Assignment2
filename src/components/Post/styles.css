@@ -4,6 +4,7 @@
     margin-bottom: 24px;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
+    box-sizing: border-box;
     background-color: #fff;
     margin-left: -1px;
     margin-right: -1px;
@@ -72,6 +73,7 @@
     padding-left: 16px;
     padding-right: 16px;
     margin-top: 4px;
+    margin-left: -8px;
     padding-bottom: 8px;
     padding-top: 6px;
     flex-direction: row;
@@ -81,13 +83,67 @@
 }
 
 .like-btn{
-    height: 26px;
-    width: 26px;
+    height: 28px;
+    width: 28px;
     align-items: center;
     cursor: pointer;
     justify-content: center;
     padding: 8px;
     display: block;
     position: relative;
+}
+
+.post-likes{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 8px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    margin: 0;
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+    color: #262626;
+    font-weight: 600;
+}
+
+.post-caption{
+    margin-bottom: 4px;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    display: flex;
+    padding: 0 16px;
+    margin: 0;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+b{
+    font-weight: 600;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+b:hover{
+    text-decoration: underline;
+}
+
+.post-time{
+    padding-left: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    justify-content: flex-start;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 18px;
 
 }
