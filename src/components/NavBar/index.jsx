@@ -1,7 +1,5 @@
 import "./styles.css";
-
-import { TiHome } from 'react-icons/ti';
-import { MdOutlineExplore } from 'react-icons/md';
+import { SearchBar } from "../SearchBar";
 
 export const Navbar = () => {
     return(
@@ -14,7 +12,7 @@ export const Navbar = () => {
                     </a>  
                 </li>
                 <li className="search-bar">
-
+                    <SearchBar />
                 </li>
                 <li className="navigation">
                     <div className = "icons">
