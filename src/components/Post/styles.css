@@ -93,6 +93,25 @@
     position: relative;
 }
 
+.comment-icon{
+    align-items: center;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    color: #000; 
+    fill: #000;
+    height: 24;
+    display: flex;
+    padding:8px;
+    height: 26px;
+    width: 26px;
+}
+
+.comment-icon:hover{
+    color: #8e8e8e; 
+    fill: #8e8e8e;
+}
+
 .post-likes{
     padding-left: 16px;
     padding-right: 16px;
