@@ -1,0 +1,20 @@
+.explore-post-container{
+    align-items: stretch;
+    display: block;
+    padding: 40px 20px 0;
+    position: relative;
+    margin: 65px auto 30px;
+    color: #262626;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+@media (min-width: 736px){
+
+    .explore-post-container {
+        max-width: 935px;
+        width: calc(100% - 40px);
+
+    }
+}
+

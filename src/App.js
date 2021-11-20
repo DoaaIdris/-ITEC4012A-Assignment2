@@ -9,7 +9,7 @@ import {
 
 import { Navbar } from './components/NavBar/index';
 import {HomePage} from "./components/pages/HomePage/index";
-import { Profile} from "./components/pages/Profile/index";
+import { ExplorePage} from "./components/pages/ExplorePage/index";
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path="/profile">
-            <Profile />
+          <Route path="/explore">
+            <ExplorePage />
           </Route>
         </Switch>
       </Router>
