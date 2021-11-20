@@ -83,6 +83,7 @@ a{
     padding: 0;
     margin: 0;
     position: relative;
+    justify-content: center;
     
 }
 
@@ -124,8 +125,8 @@ a{
 .explore-icon{
     margin-left: 22px;
     align-items: stretch;
-    height: 25px;
-    width: 25px;
+    height: 28px;
+    width: 28px;
     align-items: stretch;
     color: #262626; 
     fill: #262626; 
@@ -142,6 +143,24 @@ a{
 .explore-icon:active {
     color: #aaa9a9; 
     fill: #aaa9a9; 
+}
+
+.profileImg{
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+    background-color: #fafafa;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-left: 22px;
+    padding: 0;
+    border: 1px solid #b4b4b4;
+    object-fit: cover;
+    
 }
 
 
