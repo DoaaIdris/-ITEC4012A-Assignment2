@@ -5,8 +5,8 @@
     position: relative;
     flex: 0 0 auto;
     float: left;
-    width: 100%;
-    padding-bottom: 100%;
+    width: 280px;
+    height: 280px;
     overflow: hidden;
     
 }
@@ -14,10 +14,42 @@
 .explore-post img{
     object-fit: cover;
     cursor: pointer;
-    position: absolute;
-    height: 80%;
-   
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
     
+}
+
+.explore-post-overlay{
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-post-likes, .explore-post-comments{
+    opacity: 100%;
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon{
+    color:#ffffff;
+    fill: #ffffff; 
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
 }
 
 @media only screen and (min-width: 736px){
