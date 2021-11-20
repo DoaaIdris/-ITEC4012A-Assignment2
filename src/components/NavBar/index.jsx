@@ -32,6 +32,8 @@ export const Navbar = () => {
                                 10.5-5-5 10.5z" ></path>
                                 </svg>
                         </a>
+                        <img className="profileImg" alt="dodotheburd's profile picture" crossorigin="anonymous" 
+                                src="leaninggirl.jpg"></img>
                     </div>
                     
                 </li>
