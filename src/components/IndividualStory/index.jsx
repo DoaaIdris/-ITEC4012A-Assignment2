@@ -17,7 +17,7 @@ export const IndividualStory = (props) => {
 
     return(
             <li className="story">
-               <img  className={isViewed ? 'storyImg' : 'storyImgViewed'} onClick={handleStoryViewing} alt="cats_artdiary's profile picture"  crossorigin="anonymous" data-testid="user-avatar" draggable="false" 
+               <img  className={isViewed ? 'storyImg' : 'storyImgViewed'} onClick={handleStoryViewing} crossorigin="anonymous" data-testid="user-avatar" draggable="false" 
                 src={photo}/>    
                     <div className="username">{username}</div>
             </li>
