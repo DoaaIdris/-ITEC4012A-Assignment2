@@ -22,7 +22,7 @@
 }
 
 .explore-post-overlay{
-    background-color: #000;
+    background-color: rgb(221, 221, 221);
     opacity: 0.3;
     position: absolute;
     height: 100%;

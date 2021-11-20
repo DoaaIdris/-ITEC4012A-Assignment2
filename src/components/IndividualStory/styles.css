@@ -1,0 +1,63 @@
+li {
+    display: list-item;
+    list-style: none;
+    position: absolute;
+}
+
+.story {
+    width: 72px;
+    align-items:stretch;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0px 4px;
+    margin-left: 20px;
+    height: 122px;
+    top: 2px;
+    position: relative;   
+}
+
+.storyImg{
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    display: flex;
+    margin: 1px 6px;
+    object-fit: cover;
+    border: 4px solid #dbdbdb;
+
+}
+
+.storyImgViewed{
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    display: flex;
+    margin: 1px 6px;
+    object-fit: cover;
+    border: 4px solid #c74a7e;
+}
+
+.username{
+    letter-spacing: .01em;
+    max-width: 78px;
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    text-overflow: ellipsis;
+    top: 76px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+
+}
